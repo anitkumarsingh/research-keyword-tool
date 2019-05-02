@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: auto;
+}
+
+.App-header {
+  /* background-color: #222; */
+  background:linear-gradient(rgba(45, 104, 255, 0.596),rgba(45, 104, 255, 0.596)), url('./Images/1511.jpg');
+  background-position: 30% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 240px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+.content-section{
+  background: #F5F5F5;
+  margin-top:0; 
+  width: 100%;
+}
+.content-section h1{
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+  margin: 1% 6% 1% 1%;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.col:first-child { margin-left:7%; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 40%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .col { margin: 1% 1% 1% 1%;}
+  .col:first-child { margin-left:2%; margin-right:2%; }
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+  .span_2_of_3 p,h3{
+    padding-right:8%;
+    padding-left: 8%;
+  }
+  .span_2_of_3 h1{
+    font-size: 1%!important;
+  }
+  
+}
