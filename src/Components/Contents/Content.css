@@ -1,18 +1,18 @@
-.static-keyword-1{
-    color:#B6B6B6;
-    font-size: 50px;
+.static-keyword-1 {
+  color: #b6b6b6;
+  font-size: 50px;
 }
-.static-keyword-title{
-    font-size:25px;
-    color:#B6B6B6;
-    margin-left:65px;
-    margin-top:-20px;
+.static-keyword-title {
+  font-size: 25px;
+  color: #b6b6b6;
+  margin-left: 65px;
+  margin-top: -20px;
 }
-.description-text{
-    text-align:justify;
-    line-height:1.5;
-    color:rgba(51,51,51,0.9);
+.description-text {
+  text-align: justify;
+  line-height: 1.5;
+  color: rgba(51, 51, 51, 0.9);
 }
-.header-text{
-    text-align:'left';
+.header-text {
+  text-align: 'left';
 }

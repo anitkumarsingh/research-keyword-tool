@@ -11,12 +11,18 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" width="15%" height="5%" />
-            <Nav/>
-            <Search/>
+          <img
+            src={logo}
+            className="App-logo"
+            alt="logo"
+            width="15%"
+            height="5%"
+          />
+          <Nav />
+          <Search />
         </header>
-        <CotentsBody/>
-        <CallToAction/>
+        <CotentsBody />
+        <CallToAction />
       </div>
     );
   }
