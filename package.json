@@ -16,9 +16,9 @@
     "gh-pages": "^2.0.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "react-cosmos": "^4.8.1"
+    "react-cosmos": "^5.7.2"
   }
 }
